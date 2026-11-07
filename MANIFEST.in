@@ -1,0 +1,3 @@
+include midigas/README.md
+recursive-include midigas/ *
+recursive-include midigas/artwork *

@@ -1,0 +1,72 @@
+[build-system]
+requires = ["setuptools>=80.9.0", "wheel", "build"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "midigas"
+version = "26.11.06"
+description = "MIDI GAS"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+  { name = "Alex Lev", email = "alexlev61@proton.me" }
+]
+maintainers = [
+  { name = "Alex Lev", email = "alexlev61@proton.me" }
+]
+dependencies = [
+  "tqdm",
+  "ipywidgets",
+  "huggingface_hub",
+  "torch",
+  "torch-summary",
+  "x-transformers==2.31.10"
+]
+
+keywords = [
+	"MIDI",
+	"music",
+	"music AI",
+	"genre identefication",
+	"MIDI genre",
+	"music genre",
+	"symbolic music",
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Intended Audience :: Education",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Multimedia :: Sound/Audio",
+  "Topic :: Multimedia :: Sound/Audio :: MIDI",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Environment :: Console",
+  "Natural Language :: English",
+  "Typing :: Typed"
+]
+
+requires-python = ">=3.8"
+
+[project.readme]
+file = "midigas/README.md"
+content-type = "text/markdown"
+
+[project.urls]
+Homepage = "https://github.com/asigalov61/midigas"
+Documentation = "https://github.com/asigalov61/midigas"
+Models = "https://huggingface.co/projectlosangeles/midigas"
+Issues = "https://github.com/asigalov61/midigas/issues"
+Discussions = "https://github.com/asigalov61/midigas/discussions"
+Dataset = "https://huggingface.co/datasets/asigalov61/MIDI-GAS"
+SoundCloud = "https://soundcloud.com/aleksandr-sigalov-61/"
